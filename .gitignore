@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+.venv/
+env/
+ENV/
+
+# Backup files
+*_backup/
+*.backup
+*.bak
+*.old
+
+# Flutter / Dart
+.DartTool/
+.pub/
+build/
+*.iml
+*.lock
+*.swp
+*.swo
+*~
+*.log
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
