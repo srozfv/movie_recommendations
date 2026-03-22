@@ -1,0 +1,53 @@
+name: movie_recommendations
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.4.0                   # для запросов к API
+
+  flutter_secure_storage: ^9.0.0  # для безопасного хранения данных (например, токенов)
+  # Навигация
+  go_router: ^13.0.1              # удобная декларативная навигация
+  freezed_annotation: ^2.4.1   # обычно ставится та же версия, что и freezed
+  flutter_bloc: ^9.0.0
+  equatable: ^2.0.7
+  meta: ^1.15.0
+  # HTTP клиент
+  # или http: ^1.2.1             # альтернатива
+
+  shared_preferences: ^2.2.2
+
+  # Кэширование изображений
+  cached_network_image: ^3.3.1   # для плавной загрузки постеров
+
+  # Работа с JSON
+  json_annotation: ^4.8.1        # аннотации для кодогенерации
+
+  # Управление состоянием (выберите один вариант)
+  provider: ^6.1.1                # простой и понятный
+  # или flutter_bloc: ^8.1.3       # если хотите BLoC
+  # или riverpod: ^2.4.9           # современная альтернатива
+
+  # Адаптивный дизайн
+  flutter_screenutil: ^5.9.0      # для разных размеров экранов
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # Генерация кода для JSON
+  build_runner: ^2.4.7            # запуск кодогенерации
+  json_serializable: ^6.7.1       # сериализация JSON
+
+  # Для неизменяемых классов (опционально, но удобно)
+  freezed: ^2.4.6                 # генерация data-классов
+
+flutter:
+  uses-material-design: true
